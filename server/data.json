@@ -1,0 +1,35 @@
+{
+  "maincategory": [
+    {
+      "name": "Male",
+      "pic": "maincategory/banner1.jpg",
+      "status": true,
+      "id": "a07e"
+    },
+    {
+      "id": "334b",
+      "name": "Female",
+      "pic": "maincategory/banner5.jpg",
+      "status": true
+    },
+    {
+      "id": "a396",
+      "name": "Kids",
+      "pic": "maincategory/kids.jpg",
+      "status": ""
+    }
+  ],
+  "subcategory": [],
+  "brand": [],
+  "product": [],
+  "feature": [],
+  "faq": [],
+  "setting": [],
+  "user": [],
+  "cart": [],
+  "checkout": [],
+  "wishlist": [],
+  "testimonial": [],
+  "contactus": [],
+  "newsletter": []
+}
