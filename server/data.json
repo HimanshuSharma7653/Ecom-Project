@@ -9,8 +9,14 @@
     {
       "name": "Male",
       "pic": "maincategory/banner1.jpg",
-      "status": true,
+      "status": false,
       "id": "412e"
+    },
+    {
+      "name": "Female",
+      "pic": "maincategory/banner5.jpg",
+      "status": true,
+      "id": "2610"
     }
   ],
   "subcategory": [],
