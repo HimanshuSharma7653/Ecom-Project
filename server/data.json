@@ -1,29 +1,135 @@
 {
   "maincategory": [
     {
-      "id": "a1b9",
+      "name": "Male",
+      "pic": "maincategory/man.jpg",
+      "status": true,
+      "id": "de87"
+    },
+    {
+      "name": "Female",
+      "pic": "maincategory/woman.jpg",
+      "status": true,
+      "id": "e6fd"
+    },
+    {
+      "id": "9357",
       "name": "Kids",
       "pic": "maincategory/kids.jpg",
       "status": true
     },
     {
-      "name": "Male",
-      "pic": "maincategory/banner1.jpg",
-      "status": false,
-      "id": "412e"
-    },
-    {
-      "name": "Female",
-      "pic": "maincategory/banner5.jpg",
-      "status": true,
-      "id": "2610"
+      "id": "e5d2",
+      "name": "Electronics",
+      "pic": "maincategory/electronics.jpg",
+      "status": true
     }
   ],
-  "subcategory": [],
-  "brand": [],
+  "subcategory": [
+    {
+      "name": "Trends",
+      "pic": "Subcategory/trouser.jpg",
+      "status": true,
+      "id": "88cd"
+    },
+    {
+      "id": "eb6a",
+      "name": "Jeans",
+      "pic": "Subcategory/jeans.jpg",
+      "status": ""
+    }
+  ],
+  "brand": [
+    {
+      "id": "a197",
+      "name": "Adidas",
+      "pic": "brand/adidas.png",
+      "status": true
+    }
+  ],
   "product": [],
-  "feature": [],
-  "faq": [],
+  "feature": [
+    {
+      "name": "Seamless Shopping Experience",
+      "icon": "<i class='bi bi-cart'></i>",
+      "shortDescription": "Luxomart offers a smooth and user-friendly shopping experience designed for all users. From browsing products to checkout, every step is optimized for speed and simplicity. Customers can easily find what they need, add items to cart, and complete purchases without confusion or delays.",
+      "status": true,
+      "id": "cb96"
+    },
+    {
+      "id": "f952",
+      "name": "Secure Payment System",
+      "icon": "<i class='bi bi-shield-check'></i>",
+      "shortDescription": "We prioritize your safety with advanced encryption and secure payment gateways. Luxomart supports multiple payment options including cards, UPI, and wallets, ensuring flexibility and trust. Your personal and financial data remains protected at every step of the transaction process.",
+      "status": true
+    },
+    {
+      "id": "4e8e",
+      "name": "Fast & Reliable Delivery",
+      "icon": "<i class='bi bi-truck'></i>",
+      "shortDescription": "Luxomart ensures quick and dependable delivery services across multiple locations. Orders are processed efficiently and shipped with trusted logistics partners. Customers can track their orders in real-time, ensuring transparency and peace of mind from purchase to doorstep delivery.",
+      "status": true
+    },
+    {
+      "id": "60a1",
+      "name": "Wishlist & Favorites",
+      "icon": "<i class='bi bi-heart'></i>",
+      "shortDescription": "Users can save their favorite products in a personalized wishlist for future purchases. This feature helps customers keep track of desired items, compare products easily, and shop conveniently later without searching again, improving the overall shopping experience.",
+      "status": true
+    },
+    {
+      "id": "13ec",
+      "name": "Customer Reviews & Ratings",
+      "icon": "<i class='bi bi-star'></i>",
+      "shortDescription": "Luxomart allows users to share feedback through reviews and ratings. This helps new customers make informed decisions based on real experiences. Honest opinions build trust and improve product quality while creating a transparent shopping environment for everyone.\n\n",
+      "status": true
+    },
+    {
+      "id": "eb3c",
+      "name": "24/7 Customer Support",
+      "icon": "<i class='bi bi-headset'></i>",
+      "shortDescription": "Our dedicated support team is available around the clock to assist users with queries, issues, or order-related concerns. Whether it’s tracking, returns, or general help, Luxomart ensures quick responses and reliable assistance to enhance customer satisfaction.",
+      "status": true
+    }
+  ],
+  "faq": [
+    {
+      "id": "01a9",
+      "question": " What is Luxomart?",
+      "answer": "Luxomart is an online e-commerce platform where users can browse, compare, and purchase a wide variety of products in one place. It offers a smooth shopping experience with secure payments, fast delivery, and reliable customer support, making online shopping easy, convenient, and trustworthy for everyone.",
+      "status": true
+    },
+    {
+      "id": "59ea",
+      "question": "How do I create an account on Luxomart?",
+      "answer": "You can sign up by clicking on the “Register” button on the homepage. Enter your name, email, and password, or use Google login. Once registered, you can start shopping, track orders, and manage your profile easily.\n\n",
+      "status": true
+    },
+    {
+      "id": "e1f6",
+      "question": "What payment methods are available?",
+      "answer": "Luxomart supports multiple payment options including debit/credit cards, UPI, net banking, and digital wallets. We also provide secure payment gateways to ensure your transactions are safe and hassle-free every time you shop.\n\n",
+      "status": true
+    },
+    {
+      "id": "c65f",
+      "question": "How can I track my order?",
+      "answer": "After placing an order, you can track it from the “My Orders” section in your account. You will also receive tracking updates via email or SMS with real-time delivery status and estimated arrival time.",
+      "status": true
+    },
+    {
+      "id": "b5e5",
+      "question": "Q: What is the return policy?",
+      "answer": "A: Luxomart offers an easy return policy within a specified period. If you receive a damaged or incorrect product, you can request a return or replacement directly from your account without any complicated steps.\n\n",
+      "status": true
+    },
+    {
+      "id": "7d58",
+      "question": "Q: How long does delivery take?",
+      "answer": "A: Delivery time depends on your location and product availability. Generally, orders are delivered within 3–7 business days. You can check the estimated delivery date before placing your order for better clarity.\n\n",
+      "status": true
+    }
+  ],
   "setting": [],
   "user": [],
   "cart": [],

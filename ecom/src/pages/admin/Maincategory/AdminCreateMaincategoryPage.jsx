@@ -11,7 +11,7 @@ export default function AdminCreateMaincategoryPage() {
     let [data,setData] = useState({
         name : "",
         pic : "",
-        status : ""
+        status : true
     })
 
     let MaincategoryStateData = useSelector(state => state.MaincategoryStateData)

@@ -9,9 +9,9 @@ export default function AdminSideBar() {
         <Link to="/admin" className="list-group-item mybackground text-light" aria-current="true"><i className="bi bi-house"></i><span className="float-end mt-2">Home</span></Link>
         <Link to="/admin/maincategory" className="list-group-item mybackground text-light" aria-current="true"><i className="bi bi-card-checklist"></i><span className="float-end mt-2">Main category</span></Link>
         <Link to="/admin/subcategory" className="list-group-item mybackground text-light" aria-current="true"><i className="bi bi-card-list"></i><span className="float-end mt-2">Sub category</span></Link>
-        <Link to="/adminbrand" className="list-group-item mybackground text-light" aria-current="true"><i className="bi bi-list-stars"></i><span className="float-end mt-2">Brand</span></Link>
+        <Link to="/admin/brand" className="list-group-item mybackground text-light" aria-current="true"><i className="bi bi-list-stars"></i><span className="float-end mt-2">Brand</span></Link>
         <Link to="/admin/products" className="list-group-item mybackground text-light" aria-current="true"><i className="bi bi-list-ol"></i><span className="float-end mt-2">Products</span></Link>
-        <Link to="/admin/features" className="list-group-item mybackground text-light" aria-current="true"><i className="bi bi-list-check"></i><span className="float-end mt-2">Features</span></Link>
+        <Link to="/admin/feature" className="list-group-item mybackground text-light" aria-current="true"><i className="bi bi-list-check"></i><span className="float-end mt-2">Features</span></Link>
         <Link to="/admin/faq" className="list-group-item mybackground text-light" aria-current="true"><i className="bi bi-question-circle"></i><span className="float-end mt-2">Faq</span></Link>
         <Link to="/admin/privacy-policy" className="list-group-item mybackground text-light" aria-current="true"><i className="bi bi-house-lock"></i><span className="float-end mt-2">Privacy-policy</span></Link>
         <Link to="/admin/terms-conditions" className="list-group-item mybackground text-light" aria-current="true"><i className="bi bi-shield-exclamation"></i><span className="float-end mt-2">Terms-Conditions</span></Link>

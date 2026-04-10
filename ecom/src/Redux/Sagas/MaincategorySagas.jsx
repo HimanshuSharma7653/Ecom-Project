@@ -12,10 +12,10 @@ function* createSaga(action){
 }
 
 function* getSaga(action){
-    console.log("🔥 getSaga triggered")
+    
     
     let response = yield getRecord("maincategory")
-    console.log("📤 Dispatching to reducer", response)
+   
     
     yield put({type: GET_MAINCATEGORY_RED,payload:response})
 
@@ -34,7 +34,7 @@ function* deleteSaga(action){
 }
 
 export default function* MaincategorySagas(){
-    console.log("🚀 MaincategorySagas started")
+    
     yield takeEvery(CREATE_MAINCATEGORY, createSaga)
     yield takeEvery(GET_MAINCATEGORY, getSaga)
     yield takeEvery(UPDATE_MAINCATEGORY, updateSaga)
